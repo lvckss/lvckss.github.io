@@ -66,3 +66,36 @@
 .list li.separator {
     margin: 0 0px;
 }
+
+/* Existing Styles */
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    .main {
+        margin-top: 50%;
+    }
+    
+    .title {
+        font-size: 170%;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    }
+    
+    .imagen img {
+        max-width: 60%;
+    }
+    
+    .subtext {
+        margin-top: 5%;
+    }
+
+    .subtext p {
+        font-size: 80%;
+    }
+    
+    .list ul {
+        flex-direction: row;
+        align-items: center;
+    }
+}
